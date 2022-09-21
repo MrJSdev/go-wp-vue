@@ -1,0 +1,1 @@
+export { default } from "file:///Users/riyaz/go/src/go-wp-vue/frontend/node_modules/@nuxt/vite-builder/dist/runtime/vite-node.mjs"
