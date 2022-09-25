@@ -11,7 +11,14 @@ module.exports = {
     "./nuxt.config.{js,ts}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "primary": "#22cf00",
+      },
+      maxWidth: {
+        "content": "1140px",
+      },
+    },
   },
   variants: {
     extend: {},

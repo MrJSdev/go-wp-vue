@@ -1,10 +1,13 @@
 <template>
-  <header class="container mx-auto py-4">
+  <header class="w-full bg-white border md:mb-5 border-gray-100 rounded-md py-4">
 
     <div class="flex">
       <div class="flex-1">
         <!-- Logo -->
-        <h1 class="text-2xl text-uppercase">Logo</h1>
+        <NuxtLink to="/">
+          <h1 class="text-2xl cursor-pointer text-uppercase pl-5">Logo</h1>
+        </NuxtLink>
+
       </div>
       <!-- Menu list -->
       <nav class="flex-1 text-right">
@@ -25,15 +28,11 @@ import { NavigationItem } from '@/types/Navigation'
 const navigationList: NavigationItem[] = [
   {
     title: 'Home',
-    path: '/home'
+    path: '/'
   },
   {
     title: 'Blog',
     path: '/blog'
   },
-  {
-    title: 'Post item',
-    path: '/blog/2'
-  }
 ] 
 </script>
